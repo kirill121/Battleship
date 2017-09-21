@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="battleship1.css">
+	
+	<h1>Battleship</h1>
+	<span id="place" class="move">Make a move</span>
+	
+	
+	
+	
+	<div>
+	<input id="row" type="text">
+    <button id="board" type="submit" onclick='battleship.clickThis(this)'>Put in a number and press this button to generate a board</button>
+    </div>
+
+    <!-- <div>
+	<input id="cell" type="text">
+    <button id="board" type="submit" onclick='battleship.clickThis(this)'>Add Number of Cells</button>
+    </div> -->
+
+  
+	
+   <div>
+	    <table border="1">
+	    	<tr>
+	    		<th>hit miss ratio</th>
+	    	</tr>
+	    	<tr id="ratio"></tr>
+	    </table>
+   </div>
+
+   <div id="gameover"></div>
+
+
+	<button onclick='battleship.clicky(this)'>Generate Board</button>
+	
+	<table id="table">
+		<tr>
+		</tr>	
+	</table>	
+
+	
+	<script type='text/javascript' src="battleship1.js"></script>
+</body>
+</html>	
